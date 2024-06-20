@@ -9,7 +9,6 @@ This project is a boilerplate for setting up a TypeScript Express server with ES
 - [Scripts](#scripts)
 - [Configuration](#configuration)
 - [Running Tests](#running-tests)
-- [License](#license)
 
 ## Getting Started
 
