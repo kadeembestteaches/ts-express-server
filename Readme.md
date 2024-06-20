@@ -55,13 +55,14 @@ npm run start
 ```
 ## Project Structure
 
+```plaintext
 ts-express-server/
 ├── dist/                      # Compiled JavaScript files
 ├── helpers/
 │   ├── add-js-extension.ts    # Script to add .js extension to import statements
 │   ├── expressErrorLib.ts     # Custom error classes
-│   └── utils.ts               # Utility functions
-|   └── utils.test.ts          # Test for Utility functions
+│   ├── utils.ts               # Utility functions
+│   └── utils.test.ts          # Test for Utility functions
 ├── routers/
 │   ├── userRouter.ts          # User router
 │   └── userRouters.test.ts    # Tests for user router
@@ -72,8 +73,7 @@ ts-express-server/
 ├── package.json               # NPM package configuration
 ├── tsconfig.json              # TypeScript configuration
 └── jest.config.js             # Jest configuration
-
-
+```
 
 ## Scripts
 
