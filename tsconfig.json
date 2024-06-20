@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "./*"] // Path aliasing to match any module
+    }
+  },
+  "include": ["**/*.ts", "helpers/add-js-extension.js"],
+  "exclude": ["node_modules"]
+}
