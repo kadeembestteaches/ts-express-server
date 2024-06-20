@@ -13,7 +13,7 @@ app.use(cors());
 app.use("/users",userRouter);
 
 /** Handle 404 errors -- this matches everything */
-app.use(function (req, res, next) {
+app.use(function (req:Request, res:Response, next:NextFunction) {
   throw new NotFoundError();
 });
 
